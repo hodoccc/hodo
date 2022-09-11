@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- 搜索框 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body class="flex">
+    <!-- 侧边栏 -->
+    <div style="width: 200px; z-index: 2" class="flex column cebian yinying">
+      <!-- 侧边头像栏 -->
+      <div
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid #999;
+        "
+        class="flex"
+      >
+        <img src="https://i.postimg.cc/sXpV9xkh/xiyang.png" alt="jpg"
+        width="40px" width: 200px; ="40px" />
+        <div style="padding: 10px">hodo</div>
+      </div>
+      <!-- 列表栏 -->
+      <div class="flex1">
+        <div class="anniu liebiao">
+          <a href="https://space.bilibili.com/315227818">B站主页</a>
+        </div>
+        <div class="anniu liebiao">
+          <a href="https://space.bilibili.com/34786453">友情链接</a>
+        </div>
+        <div class="anniu liebiao">
+          <a href="https://www.midorg.com/">元岛社区</a>
+        </div>
+        <div class="anniu liebiao">导航</div>
+        <div class="anniu liebiao">导航</div>
+        <div class="anniu liebiao">导航</div>
+        <div class="anniu liebiao">导航</div>
+      </div>
+    </div>
+    <!-- 主区域 -->
+    <div class="flex1 flex column">
+      <!-- 顶部栏 -->
+      <div style="height: 60px; z-index: 1" class="dingbu yinying">
+        <!-- 搜索框 -->
+        <div class="suo">
+          <input type="text" id="i-advanced-search" placeholder="请输入↵" />
+        </div>
+      </div>
+      <!-- 内容区 -->
+      <div style="overflow: auto" class="flex flex1">
+        <!-- 左区 -->
+        <div style="flex: 3" class="flex column mg8">
+          <!-- 内容导航 -->
+          <div class="flex">
+            <!-- 导航键 -->
+            <div style="height: 100px" class="baise yinying flex1 mgr8"></div>
+
+            <div style="height: 100px" class="baise yinying flex1 mgr8"></div>
+
+            <div style="height: 100px" class="baise yinying flex1"></div>
+          </div>
+          <!-- 列表区-->
+          <div class="flex column">
+            <!-- 列表项（可无限添加）  -->
+            <!-- html -->
+            <div class="">
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+            </div>
+            <!-- css -->
+            <div class="">
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+              <div style="height: 160px" class="baise yinying mgt8"></div>
+            </div>
+          </div>
+        </div>
+        <!-- 右区 -->
+        <div style="flex: 1" class="flex column mgr8 mgt8">
+          <!--固定不滑动-->
+          <div style="position: fixed; width: 249px">
+            <!-- 留言区 -->
+            <div style="height: 222px" class="biankuang yinying mgt8">
+              留言区
+              <div style="display: flex; justify-content: center">
+                <textarea></textarea>
+                <button>发布</button>
+                <ul></ul>
+              </div>
+            </div>
+            <!-- 区  -->
+            <div style="height: 255px" class="biankuang yinying mgt8">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
